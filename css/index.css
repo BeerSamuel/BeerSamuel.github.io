@@ -1,0 +1,127 @@
+body
+{
+    background-color: rgb(44,47,51);
+    background: #1d1e21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    height: 70px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 1em;
+    background-color: rgb(35,39,42);
+    color: rgb(153,170,181);
+    display: flex;
+}
+footer
+{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 1em;
+    background-color: rgb(35,39,42);
+    color: rgb(153,170,181);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+canvas
+{
+    height: 60%;
+    width: 80%;
+}
+
+#Name
+{
+    float : right;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+#Logo
+{
+    margin-left: 10px;
+    border: solid 2px white;
+    border-radius: 50%;
+}
+#Logo:hover
+{
+    box-shadow: 0px 0px 0px 2px white;
+}
+.contact
+{
+    margin-left: 10px;
+    margin-top: 14px;
+    margin-right: 0px;
+}
+.contact img
+{
+    width: 30px;
+    height: 30px;
+}
+.contact img:hover
+{
+    box-shadow: 0px 0px 0px 5px white;
+    border-radius: 5em;
+}
+a
+{
+    text-decoration:  none;
+}
+#twitch-embed
+{
+    margin-top: 6%;
+}
+#aboutLink
+{
+    font-size: 12px;
+    margin-top: -0.5em;
+}
+.languageSelector
+{
+    right: 1em;
+    margin-left: 80%;
+    position: fixed;
+}
+.languageSelector img
+{
+    border: solid 2px white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+#fullscreenButton
+{
+    border: solid 2px white;
+    color: white;
+    font-size: 100%;
+    width: 40%;
+    height: 80%;
+    font-weight: bolder;
+    margin-left: 4em;
+    font-family: 'Courier New', Courier, monospace;
+}
+#gamesButton
+{
+    border: solid 2px white;
+    color: white;
+    font-size: 100%;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
