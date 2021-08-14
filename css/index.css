@@ -125,3 +125,19 @@ a
     align-items: center;
     font-weight: bolder;
 }
+.pageLinks
+{
+    margin-left: 10em;
+    margin-top: 1em;
+}
+.pageLinks a
+{
+    color: white;
+    margin-right: 5em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.pageLinks a:hover
+{
+    box-shadow: 0px 0px 0px 2px white;
+}
