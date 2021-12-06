@@ -125,6 +125,18 @@ a
     align-items: center;
     font-weight: bolder;
 }
+.title
+{
+    color: white;
+}
+#download
+{
+    background-color: rgb(69, 52, 168);
+    text-decoration: none;
+    color:white;
+    height: 5%;
+    margin-left: 10%;
+}
 .pageLinks
 {
     margin-left: 10em;
